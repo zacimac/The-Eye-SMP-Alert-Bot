@@ -1,0 +1,28 @@
+{
+  "name": "twitter-eye-bot",
+  "version": "1.0.0",
+  "description": "Announces on Twitter when The Eye SMP members are live on Twitch.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacimac/twitter-eye-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "twitch",
+    "messages"
+  ],
+  "author": "Zachary (@zacimac)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zacimac/twitter-eye-bot/issues"
+  },
+  "homepage": "https://github.com/zacimac/twitter-eye-bot#readme",
+  "dependencies": {
+    "node-twitch": "^0.4.5",
+    "twitter-api-client": "^1.4.0"
+  }
+}
