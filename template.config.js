@@ -16,7 +16,6 @@ exports.config = {
 
   // # Twitter App Authentication.
   // ? https://developer.twitter.com/
-  // ? NOTE: Elevated API access is required to send tweets. Elevated access requires an application sent to Twitter.
   twitter: {
     app_key: "",
     app_secret: "",
