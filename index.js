@@ -1,5 +1,5 @@
-// # Twitter Eye Bot
-// Announces on Twitter when The Eye SMP members are live on Twitch.
+// # The Eye SMP Alert Bot
+// Announces when The Eye SMP members are live on Twitch.
 
 const { config } = require('./config');
 const { TwitterApi } = require('twitter-api-v2');
@@ -33,7 +33,7 @@ discord.on("ready", async () => {
   // ? This is so it won't tweet multiple times about a member live for the one stream.
   // ? It just checks who is currently live and will store it in the members array.
   // ? Why? Incase the bot crashes or there is debugging happening. I'd rather it not tweet multiple times about the same stream.
-  checkMembers(true);
+  checkMembers();
 
   // Check if members just went live on Twitch!
   setInterval(function() {
