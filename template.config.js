@@ -4,10 +4,12 @@ exports.config = {
     {
       twitch: 'elybeatmaker', 
       twitter: 'elybeatmaker',
+      discord: '0123456789',
     },
     {
       twitch: 'zacimac', 
       twitter: 'zacimac',
+      discord: '0123456789',
     }
   ],
 
@@ -29,4 +31,11 @@ exports.config = {
     client_id: "",
     client_secret: ""
   },
+
+  // # Discord Bot Token.
+  // ? https://discordapp.com/developers/applications/
+  discord: {
+    token: "",
+    channelID: "",
+  }
 }
