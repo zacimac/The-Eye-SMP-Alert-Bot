@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/zacimac/twitter-eye-bot#readme",
   "dependencies": {
+    "discord.js": "^13.3.1",
     "node-twitch": "^0.4.5",
     "twitter-api-v2": "^1.7.0"
   }
